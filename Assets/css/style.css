@@ -1,0 +1,473 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+body{
+  background-color:white;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+nav{
+  background:#212121;
+  color:white;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  height:105px;
+}
+ #logo{
+  text-decoration:none;
+  color:white;
+  font-size:40px;
+  margin:5px 0px 0px 25px;
+  padding:15px;
+  letter-spacing:-8px;
+  font-weight:bolder;
+}
+
+.nava ul{
+  list-style-type:none;
+  display:flex;
+  margin:40px 25px 5px 0px;
+}
+.nava ul a{
+  text-decoration:none;
+  color:white;
+  font-size:25px;
+  margin:0px 30px 0px 15px;
+  text-align:center;
+}
+
+.nava ul a:hover{
+  border-bottom:3px white solid;
+}
+.mid{
+  background:url(https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  height:700px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:100%;
+  position:relative;
+}
+.midtext{  
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-30%, -30%);
+}
+.midtext h2{
+  font-size:150px;
+}
+.midslo{
+  font-size:30px;
+  margin:40px 0px 0px 0px;
+}
+.midsq{
+  background:white;
+  width:30%;
+  float:right;
+  height:30%;
+  position: absolute;
+  top: 100%;
+  left: 98%;
+  transform: translate(-93%, -100%)
+}
+.midsq h3{
+  text-align:center;
+  font-size:35px;
+  margin:30px 0px 30px 0px;
+}
+.midsq ul{
+  list-style-type:none;
+  display:flex;
+  justify-content:center;
+}
+.midsq a{
+  text-decoration:none;
+  color:black;
+  padding:15px;
+  font-size:25px;
+}
+
+.midsq a:hover{
+  border-bottom:2px solid black;
+}
+.inrow{
+  display:flex;
+  justify-content:center;
+}
+.inrow h3{
+    font-size:25px;
+    letter-spacing:1px;
+    word-spacing:1px;
+    font-weight:500;
+    padding:25px 170px 25px 170px ;
+    margin:100px 10px 30px 10px;
+    border-left:4px black solid;
+    border-right:4px black solid;
+}
+.omg{
+  display:flex;
+  justify-content:space-evenly;
+  margin:170px 0px 110px 70px ;
+}
+
+.imag1 img{
+  height:350px;
+}
+.par{
+ display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.par h3{
+  font-size:100px;
+  margin:0px 230px 25px 0px;
+  letter-spacing:5px;
+}
+
+.par p{
+  font-size:25px;
+  margin-left:25px;
+  padding:5px 5px 5px 50px;
+  border-left:4px black solid;
+}
+.con2{
+  display:flex;
+  flex-direction:column;
+}
+.imag2{
+  display:flex;
+  justify-content:center;
+}
+.imag2 img{
+  height:400px;
+  width:100%;
+  margin:0px 0px 25px 0px;
+}
+.par2 {
+  text-align:center;
+  margin:0px 0px 100px 0px;
+}
+.par2 h3{
+  font-size:100px;  
+  margin-bottom:25px;
+}
+.par2 p{
+ font-size:25px;
+ padding:5px 50px 50px 50px;
+ margin:0px 170px 0px 175px;
+ border-bottom:4px black solid; 
+}
+
+.con3{
+  display:flex;
+  justify-content:space-evenly;
+  margin-bottom:50px;
+}
+.par3{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.imag3 img{
+  height:900px;
+}
+.con3 h3{
+   font-size:100px; 
+   margin:175px 0px 0px 0px;
+}
+.con3 p{
+  font-size:25px;
+  margin:25px 0px 0px 50px;
+  border-left:4px black solid;
+  padding-left:50px;
+}
+
+footer{
+  display:flex;
+  justify-content:space-evenly;
+  background:#212121;
+  width:100%;
+  height:100px;
+  color:white;
+  align-items:center;
+}
+footer h1{
+  color:white;
+  letter-spacing:-3px;
+  
+}
+footer a{
+  text-decoration:none;
+}
+.email button{
+  background:black;
+  color:white;
+  padding:10px;
+}
+.email label{
+  margin-right:15px;
+}
+.email input{
+  background:black;
+  padding:10px;
+  border:1px black solid;
+  color:white;
+}
+/*The end of the home page, the start of contact*/
+.list{
+  background:#616161;
+  color:white;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  
+}
+.list h2{
+  text-align:center;
+  font-size:50px;
+  padding:15px;
+  padding-top:70px;
+}
+.conlist form{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:350px;
+}
+.conlist label{
+    font-size:25px;
+    margin: 10px 0px 10px 0px;
+  }
+
+.conlist form input::placeholder{ /*Pseudo */
+   color:white;
+   font-size:17px;
+   text-align:center;
+}
+.conlist form textarea::placeholder{ /*Pseudo */
+  color:white;
+  font-size:17px;
+  text-align:center;
+}
+
+.conlist form input[type=text]:focus{        /*     Pseudo for focus of text type  */
+   outline:none;
+   border-bottom:3px white solid;
+}
+.conlist form input[type=tel]:focus{     /*Pseudo for focus of telephone */
+   outline:none;
+   border-bottom:3px white solid;
+}
+
+.conlist form input[type=email]:focus{ /*Pseudo for focus of email */
+   outline:none;
+   border-bottom:3px white solid;
+}
+.conlist form textarea:focus{ /*Pseudo for focus of message area */
+   outline:none;
+  border-bottom:3px white solid;
+}
+.conlist  form input[type=text] {
+  padding:15px;
+  margin:0px 10px 40px 40px;    
+  font-size:17px;
+  background:transparent;
+  border:none;
+  border-bottom:3px black solid;
+  color:white;
+  width:100%;
+}
+.conlist  form input[type=tel] {
+  padding:15px;
+  margin:0px 10px 40px 40px;
+  font-size:17px;
+  background:transparent;
+  border:none;
+  border-bottom:3px black solid;
+  color:white;
+    width:100%;
+
+}
+
+.conlist form input[type=email]{
+  padding:15px;
+  font-size:17px;
+  background:transparent;
+   border:none;
+  border-bottom:3px black solid;
+  color:white;
+    width:100%;
+
+}
+.conlist  form textarea{
+  height:100px;
+  font-size:17px;
+  background:transparent;
+  border:none;
+  border-bottom:3px black solid;
+  color:white;
+   width:100%;
+
+}
+.conlist  form button{
+  color:white;
+  padding:20px 40px 20px 40px;
+  border-radius:4px;
+  font-size:20px;
+  background:transparent;
+  cursor: pointer;
+  margin:30px 0px 30px 0px ;
+}
+.conlist form button:hover{
+    color:white;
+    border: 1px solid #ffffff !important;
+}
+
+
+/* The end of contact page*/
+
+
+.col{
+    width:100%;
+    background:#212121; 
+    display:flex;
+    justify-content:space-evenly;
+    height:100px;
+}
+.col2{
+    width:28%;
+    height:50%;
+    overflow:auto;
+    margin:20px 15px 0px 15px ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.col2 a{
+  text-decoration:none;
+  color:black;
+  font-size:25px;
+}
+.col #foodtag{
+  background:#B3E5FC;
+}
+.col #parktag{
+  background:#B2DFDB;
+}
+.col #museumstag{
+  background:#FFCCBC;
+}
+
+.it{
+  height:100%;
+  width:100%;
+  background:#616161;
+  color:white;
+}
+
+.it div{
+  display:flex;
+  width:100%;
+}
+
+
+.qt{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin:50px 50px 20px 50px;
+  width:33%;
+  height:100%
+}
+
+.qt img {
+  height:50%;
+  width:100%;
+  margin:25px 0px 25px 0px;
+}
+.qy {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin:50px 50px 20px 50px;
+  width:33%;
+  height:100%
+}
+.qy img{
+  height:300px;
+  margin:25px 0px 25px 0px;
+}
+.qq h3{
+  padding:25px;
+  font-size:55px;
+  writing-mode: vertical-rl; 
+  margin-left:25px;
+  text-decoration:underline;
+}
+.qq h4{
+  margin:0px 0px 30px 0px;
+}
+.qq p{
+  white-space:normal;
+}
+
+.qq h3{
+  padding:25px;
+  font-size:55px;
+  writing-mode: vertical-rl; 
+  margin-left:25px;
+  text-decoration:underline;
+}
+.qq h4{
+  margin:0px 0px 30px 0px;
+}
+.qq p{
+  white-space:normal;
+}
+
+.qqq h3{
+  padding:25px;
+  font-size:55px;
+  writing-mode: vertical-rl; 
+  margin-left:25px;
+  text-decoration:underline;
+}
+.qqq h4{
+  margin:0px 0px 30px 0px;
+}
+.qqq p{
+  white-space:normal;
+}
+.coffee{
+  display:flex;
+  width:100%;
+  height:100%;
+  justify-content:center;
+   background:#616161;
+  color:white;
+}
+.coffee h2{
+  font-size:30px;
+  margin:25px 100px 25px 200px;
+  height:100%;
+  width:80%;
+}
+.yellow{
+  display:flex;
+  background:#616161;
+}
+
+
+.qt a{
+  text-decoration:none;
+  color:white;
+}
+.qy a{
+  text-decoration:none;
+  color:white;
+}
+
+
+
