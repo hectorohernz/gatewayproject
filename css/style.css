@@ -171,7 +171,8 @@ nav{
   align-items:center;
 }
 .imag3 img{
-  height:900px;
+  height:800px;
+  margin-left: 25px;
 }
 .con3 h3{
    font-size:100px; 
